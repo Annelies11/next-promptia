@@ -3,8 +3,8 @@ import Nav from '@components/Nav'
 import Provider from '@components/Provider'
 
 export const metadata = {
-    title: "Promptia",
-    description: 'Discover & Share AI Prompts'
+    title: "KawanUmok",
+    description: 'Berbagi omong kosong'
 }
 
 const RootLayout = ({children}) => {
