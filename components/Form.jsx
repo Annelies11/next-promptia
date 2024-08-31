@@ -14,8 +14,9 @@ const Form = ({
         <span className="blue_gradient">{type} Post</span>
       </h1>
       <p className="desc text-left max-w-md">
-        {type} and share amazing prompts with the world, and let your
-        imagination run wild with any AI-powered platform
+        {type} dan bagikan umok di dalam pikiranmu agar tidak mengganggu
+        pikiranmu. Terkadang kita perlu tempat pelampiasan yang tak sempat
+        tersampaikan.
       </p>
       <form
         onSubmit={handleSubmit}
@@ -23,7 +24,7 @@ const Form = ({
       >
         <label>
           <span className="font-satoshi font-semibold text-base text-gray-700">
-            Your AI Prompt
+            Sesuatu yang ada di benakmu
           </span>
           <textarea
             value={post.prompt}
@@ -37,7 +38,7 @@ const Form = ({
           <span className="font-satoshi font-semibold text-base text-gray-700">
             Tag{" "}
             <span className="font-normal">
-              (#product, #webDevelopment, #idea)
+              (#perasaan, #kepantasanDiri, #perubahanHidup)
             </span>
           </span>
           <input
@@ -50,7 +51,7 @@ const Form = ({
         </label>
         <div className="flex-end mx-3 mb-5 gap-4">
           <Link href="/" className="text-gray-500 text-sm">
-            Cancel
+            Batal
           </Link>
           <button
             type="submit"

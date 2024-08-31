@@ -35,12 +35,12 @@ const CreatePrompt = () => {
   };
   return (
     <Form
-      type="Create"
+      type="Buat"
       post={post}
       setPost={setPost}
       submitting={submitting}
       handleSubmit={createPrompt}
-      placeholder="Write your prompt here..."
+      placeholder="Tulis pikiranmu di sini..."
     />
   );
 };

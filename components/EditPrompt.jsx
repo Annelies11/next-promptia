@@ -52,7 +52,7 @@ const EditPrompt = () => {
       setPost={setPost}
       submitting={submitting}
       handleSubmit={updatePrompt}
-      placeholder="Waiting for the prompt..."
+      placeholder="Menunggu data diterima..."
     />
     // </Suspense>
   );
